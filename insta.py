@@ -135,6 +135,8 @@ def quality_kb():
         ]
     }
 
+
+
 # ─── Xabarlarni qayta ishlash ─────────────────────────────────────────────────
 
 def handle_message(msg):
