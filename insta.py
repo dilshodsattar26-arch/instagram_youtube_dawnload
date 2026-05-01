@@ -95,6 +95,7 @@ FORMATS = {
 QLABELS = {"hd": "🔥 HD 1080p", "sd": "⚡ SD 480p", "low": "💨 Low"}
 
 
+
 def download_video(url, quality):
     out = os.path.join(DL_DIR, "%(id)s.%(ext)s")
     opts = {
