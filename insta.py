@@ -78,6 +78,7 @@ PLAT = {
     "tiktok":    {"e": "🎵", "n": "TikTok",    "c": "⚫"},
 }
 
+
 def detect(url):
     for name, pat in PATTERNS.items():
         if pat.search(url):
