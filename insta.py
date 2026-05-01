@@ -37,6 +37,7 @@ def api(method, **kwargs):
         log.error("API xato: %s", e)
         return {}
 
+
 def send(chat_id, text, reply_markup=None):
     data = {"chat_id": chat_id, "text": text}
     if reply_markup:
