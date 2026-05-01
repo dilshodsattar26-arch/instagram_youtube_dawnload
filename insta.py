@@ -16,7 +16,7 @@ import yt_dlp
 
 
 # ══════════════════════════════════════════
-BOT_TOKEN = "8168505753:AAE-x9bxqUPBI8Ue9rkj0HEdSV0OTcWtyEg"
+BOT_TOKEN = ""
 ADMIN_ID  = 8057013675
 MAX_MB    = 50
 DL_DIR    = tempfile.gettempdir()
